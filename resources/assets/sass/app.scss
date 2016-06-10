@@ -470,6 +470,11 @@ h3 img {
 	.container {
 		width:100%;
 	}
+
+	.navbar.navbar-inverse {
+		z-index:1000;
+	}
+
 	.carousel-caption {
 		margin-left:0px;margin-bottom:0px;
 		width:inherit;
