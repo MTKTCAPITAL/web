@@ -141,7 +141,6 @@ header {
 #wrap {
   height: auto;
   margin: 0 auto -60px;
-  min-height: 100%;
   padding: 0 0 100px;
 }
 footer {
@@ -160,7 +159,7 @@ table td {
 }
 #logo {
   background: url("/images/logo.png") no-repeat;
-  width: 484px;
+  width: 360px;
   height: 80px;
   margin: 0 auto;
   position: absolute;
@@ -171,9 +170,24 @@ table td {
 #logo:hover {
   opacity: 0.8;
 }
-.carousel-inner {
-  margin-bottom: 0;
+
+.carousel-control.left {
+  background: none;
 }
+
+.carousel-control.right {
+  background: none;
+}
+
+.carousel-caption {
+  margin-left:280px;margin-bottom:50px;
+  width:480px;
+}
+
+.container {
+  width:950px;
+}
+
 .marketing .col-lg-4,
 .marketing col-xs-4,
 .marketing col-sm-4,
@@ -244,6 +258,12 @@ a.link-anchor .caret {
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+.under-carousel {
+  padding-bottom: 28px;
+  margin-bottom: 10px;
+  background: transparent url("/images/under-carousel.png") no-repeat scroll center bottom;
 }
 
 .navbar-inverse,
@@ -325,17 +345,7 @@ a:hover > .apply-img {
   height: 25px;
   margin-top: 2px;
 }
-.carousel-indicators {
-  position: relative;
-  left: 0;
-  margin-left: 0;
-  text-align: left;
-}
-.carousel-indicators li {
-  border: none;
-  text-shadow: none;
-  background-color: #284e6c;
-}
+
 .apply-now-slider {
   width: 100%;
   position: absolute;
@@ -346,24 +356,8 @@ a:hover > .apply-img {
 .apply-now-slider .img-button-apply-slider {
   margin-top: 175px;
 }
-.carousel-control.left,
-.carousel-control.right {
-  opacity: 0;
-  z-index: 100;
-}
-.carousel-control.left:hover,
-.carousel-control.right:hover {
-  opacity: 0;
-}
-.carousel-control.leftfocus,
-.carousel-control.rightfocus {
-  opacity: 0;
-}
-.under-carousel {
-  background: url("/images/under-carousel.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
-  padding-bottom: 28px;
-  margin-bottom: 10px;
-}
+
+
 .dropdown-menu > li > a {
   color: #284e6c;
 }
@@ -373,31 +367,7 @@ a:hover > .apply-img {
   color: #bd821a;
   background-color: #f5f5f5;
 }
-.carousel-caption {
-  bottom: 0;
-  left: 0;
-  padding-bottom: 30px;
-  position: relative;
-  right: 0;
-  text-align: left;
-  text-shadow: none;
-  top: 148px;
-}
-.carousel-caption .btn-primary {
-  text-shadow: 0 1px 1px #bd821a;
-  font-size: 18.98px;
-  position: absolute;
-  padding: 16px 60px 11px;
-}
-.carousel-caption h1 {
-  text-align: left;
-}
-.carousel-caption p {
-  font-size: 19px;
-  color: #284e6c;
-  line-height: 25px;
-  margin-bottom: 70px;
-}
+
 label {
   font: normal 20px verdana;
 }
@@ -505,12 +475,25 @@ h3 img {
 }
 
 @media (max-width: 1100px) {
+  .container {
+    width:100%;
+  }
+  .carousel-caption {
+    margin-left:0px;margin-bottom:0px;
+    width:inherit;
+  }
+  #logo {
+    background-size: contain;
+    height: 45px;
+    left:0px;
+    margin-left:0px !important;
+  }
   .navbar-wrapper {
     height:inherit;
     background:none;
   }
   .navbar-header {
-    height:80px;
+    height:45px;
   }
   header {
     height:inherit;
