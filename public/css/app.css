@@ -480,6 +480,8 @@ h3 img {
   .navbar-collapse {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+  .nav.navbar-nav {
+    text-align: left; }
   .navbar-collapse.collapse {
     display: none !important;
     margin-top: 0px !important;
