@@ -121,11 +121,7 @@ h5 {
 	font-size: 15px;
 	text-align: center;
 }
-@font-face {
-	font-family: 'Glyphicons Halflings';
-	src: url('../bootstrap/fonts/glyphicons-halflings-regular.html');
-	src: url('../bootstrap/fonts/glyphicons-halflings-regulard41d.html?#iefix') format('embedded-opentype'), url('../bootstrap/fonts/glyphicons-halflings-regular-2.html') format('woff'), url('../bootstrap/fonts/glyphicons-halflings-regular-3.html') format('truetype'), url('../bootstrap/fonts/glyphicons-halflings-regular-4.html#glyphicons_halflingsregular') format('svg');
-}
+
 header {
 	background-color: #bed7f1;
 	height: 160px;
@@ -180,39 +176,6 @@ table td {
 	width:950px;
 }
 
-.marketing .col-lg-4,
-.marketing col-xs-4,
-.marketing col-sm-4,
-.marketing col-md-4,
-.marketing col-lg-4 {
-	margin-bottom: 20px;
-}
-.marketing .col-lg-4 img,
-.marketing col-xs-4 img,
-.marketing col-sm-4 img,
-.marketing col-md-4 img,
-.marketing col-lg-4 img {
-	margin: 0 auto;
-}
-.marketing p {
-	text-align: left;
-}
-.marketing .text-center p {
-	text-align: center;
-}
-.marketing h3 {
-	text-align: center;
-}
-.marketing img {
-	max-width: 215px;
-}
-a.more {
-	color: #457ea8;
-	text-decoration: underline;
-}
-a.more:hover {
-	text-decoration: none;
-}
 .img-border {
 	border: 1px solid #B4B8BB;
 	box-shadow: 2px 2px 0 #BBBBBB;
@@ -542,4 +505,19 @@ address {
 address p {
 	color: #284E6C;
 	line-height: 26px;
+}
+
+.p2contact {
+	font-size: 16px;
+	padding: 5px;
+	font-size: 26px;
+	color: #126db6;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-left: 27px;
+
+}
+
+.pselect {
+	font-size:20px;color:black;
 }

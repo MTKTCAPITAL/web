@@ -4,10 +4,10 @@
     <title>MTKT Capital</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{elixir('css/app.css')}}">
-    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 </head>
 <body>
 <header>
@@ -56,7 +56,7 @@
                             </ul>
                         </li>
                         <li><a href="contact">Contact Us</a></li>
-                        <li><a href="forms/apply">APPLY NOW<span class="apply-img float"></span></a></li>
+                        <li><a href="apply">APPLY NOW<span class="apply-img float"></span></a></li>
                     </ul>
                 </div>
             </div>
