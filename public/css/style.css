@@ -496,7 +496,7 @@ h3 img {
     height:45px;
   }
   header {
-    height:inherit;
+    height:45px;
   }
   .navbar-header {
     float: none; }
@@ -512,6 +512,7 @@ h3 img {
   .navbar-collapse.collapse {
     display: none !important;
     margin-top:0px !important;
+    background-color: black;
   }
   .navbar-nav {
     float: none !important;
